@@ -21,10 +21,11 @@ Quán Cà Phê Nhỏ là game quản lý quán cà phê miễn phí, chơi trên
 - **Trên trình duyệt của bạn:** tiến trình chơi, các bản tự lưu dự phòng và tuỳ chọn âm thanh.
 - **Trên máy chủ (chỉ khi đăng nhập Discord):** tiến trình chơi của bạn, gắn với mã tài khoản Discord. Tiến trình gồm tên quán bạn đặt, chi nhánh, cấp máy pha, nâng cấp, nhiệm vụ, tiền và kim cương trong game.
 - Dữ liệu chỉ dùng để lưu và khôi phục tiến trình chơi. Game không bán, không chia sẻ dữ liệu cho bên thứ ba và không dùng để quảng cáo. Game được vận hành trên Vercel và lưu dữ liệu tại Upstash.
+- Chi tiết từng loại dữ liệu, cookie và thời hạn lưu nằm trong [Chính sách quyền riêng tư](PRIVACY.md).
 
 ## 4. Xoá dữ liệu
 
-Bạn có thể yêu cầu xoá tiến trình đã lưu trên máy chủ bằng cách mở một issue tại https://github.com/zenkifeed/coffeeshop-legal/issues. Tiến trình trên trình duyệt thì bạn tự xoá được bằng nút "Chơi lại từ đầu" trong Cài đặt hoặc xoá dữ liệu trang web của trình duyệt.
+Bạn có thể yêu cầu xoá tiến trình đã lưu trên máy chủ bằng cách mở một issue tại https://github.com/zenkifeed/coffeeshop-legal/issues; các bước xác minh chủ tài khoản ghi ở mục 6 của [Chính sách quyền riêng tư](PRIVACY.md). Tiến trình trên trình duyệt thì bạn tự xoá được bằng nút "Chơi lại từ đầu" trong Cài đặt hoặc xoá dữ liệu trang web của trình duyệt.
 
 ## 5. Tài sản trong game
 
@@ -52,8 +53,8 @@ Quán Cà Phê Nhỏ ("Little Coffee Shop") is a free browser game at https://ha
 
 1. **Playing.** The game is free, has no ads and sells nothing for real money. You can play as a guest (progress stays in your browser) or sign in with Discord to save progress to the server and continue on other devices. Do not attack, overload or tamper with the game's servers, including by automated means.
 2. **Discord sign-in.** The game requests only the `identify` scope and reads your **Discord user ID, display name and avatar**. It does not read your email, servers, messages or friends, and never posts on your behalf. The Discord access token is used once to read that information and is not stored. A signed, HttpOnly session cookie is kept for up to 30 days; signing out in the game's Settings removes it.
-3. **Data stored.** In your browser: game progress, automatic backups and sound preferences. On the server (only when signed in with Discord): your game progress (shop name, branch, machine levels, upgrades, tasks, in-game coins and gems), keyed by your Discord user ID. Data is used only to save and restore your progress. It is not sold, shared with third parties or used for advertising. The game is hosted on Vercel and stores data with Upstash.
-4. **Deleting your data.** To have your server-side progress deleted, open an issue at https://github.com/zenkifeed/coffeeshop-legal/issues. Browser-side progress can be cleared with "Chơi lại từ đầu" (Start over) in Settings or by clearing the site's data in your browser.
+3. **Data stored.** In your browser: game progress, automatic backups and sound preferences. On the server (only when signed in with Discord): your game progress (shop name, branch, machine levels, upgrades, tasks, in-game coins and gems), keyed by your Discord user ID. Data is used only to save and restore your progress. It is not sold, shared with third parties or used for advertising. The game is hosted on Vercel and stores data with Upstash. Full details are in the [Privacy Policy](PRIVACY.md).
+4. **Deleting your data.** To have your server-side progress deleted, open an issue at https://github.com/zenkifeed/coffeeshop-legal/issues; ownership verification steps are in section 6 of the [Privacy Policy](PRIVACY.md). Browser-side progress can be cleared with "Chơi lại từ đầu" (Start over) in Settings or by clearing the site's data in your browser.
 5. **In-game items.** Coins, gems and all in-game items have no real-world value and cannot be exchanged or transferred. The developer may rebalance, change or reset them in updates.
 6. **No warranty.** The game is provided "as is", without guarantees of uninterrupted or error-free operation or that saved progress will never be lost. The developer may suspend or discontinue the game at any time.
 7. **Changes.** These terms may be updated; the date at the top shows the current version. Continuing to play after a change means you accept the updated terms.
